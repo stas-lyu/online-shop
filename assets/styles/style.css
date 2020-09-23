@@ -1,3 +1,145 @@
 .hide {
     display: none;
 }
+
+.Red, .Black, .Yellow, .Blue, .Pink, .Green {
+    display: flex;
+}
+
+.fa-check-square {
+    margin-right: 10px;
+}
+
+.red .fa-check-square {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.black .fa-check-square {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.yellow .fa-check-square {
+    background-color: yellow;
+    color: white;
+    cursor: pointer;
+}
+
+.pink .fa-check-square {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+
+.green .fa-check-square {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.filterByColor h4 {
+    border-bottom: 2px solid black;
+    width: 150px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+.all-products {
+    max-width: 846px;
+}
+.product-list {
+    position: relative;
+    max-width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.product-item{
+    position: relative;
+    max-width: 242px;
+    max-height: 410px;
+    padding: 30px;
+}
+.image-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container image{
+    width: 175px;
+    height: 243px;
+}
+.product-name-and-amount{
+    position: relative;
+}
+.product-name-and-amount h3{
+    color: #D58E32;
+    font-size: 14px;
+    text-align: center;
+}
+.btn-block{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#quickView{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88px;
+    height: 38px;
+    background-color: #2A2A2A;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+}
+#addToCard{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 133px;
+    height: 38px;
+    background-color: #2A2A2A;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+}
+.range-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.like,
+.compare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    border: 1px solid #2A2A2A;
+}
+.cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D58E32;
+    color: white;
+    width: 79px;
+    height: 38px;
+}
+.footer-item{
+    padding: 0 11px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
